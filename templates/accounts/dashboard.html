@@ -3,7 +3,7 @@
 {% block title %} | User Dashboard {% endblock %}
 
 {% block content %}
-  <section id="showcase-inner" class="py-5 text-white">
+<section id="showcase-inner" class="py-5 text-white">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
@@ -29,7 +29,7 @@
     </div>
   </section>
 
-  <!-- Alert -->
+  <!-- Alerts -->
   {% include 'partials/_alerts.html' %}
 
   <section id="dashboard" class="py-4">
@@ -60,10 +60,10 @@
               </tbody>
             </table>
           {% else %}
-            <p>You have made any inquiries</p>
+            <p>You have not made any inquiries</p>
           {% endif %}
         </div>
       </div>
     </div>
   </section>
-{% endblock %}
+  {% endblock %}
